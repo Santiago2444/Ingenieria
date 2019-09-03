@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" bgcolor="blue" >
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link href="/CSS/bootstrap.css" rel="style">        
+            <link href="/CSS/style.css" rel="stylesheet">
+            <title>Formulario</title>
+            <style type="text/css">
+                label {color: rgb(255, 255, 0);}
+            </style>
+        </head>
+    <body bgcolor="green">
+        <font color="#ffffff">
+        <h1 class="tl" id="xd">Formulario de clientes</h1>
+        </font>
+        <a href="index.html">Index</a>
+        </p>
+        <form action="https://isp20-sfe.infd.edu.ar" method="get"><!-- get=enviaar -->
+            <label for="txtnombre">Nombre:</label>
+            <input type="text" name="txtnombre">
+            <p>
+            <label for="txtapellido">Apellido:</label>
+            <input type="text" name="txtapellido" placeholder="Primera letra con mayúscula por favor">
+            <p>
+            <label>
+                Contraseña:
+            <input type="password" name="txtapassword" placeholder="Mas de tres caracteres">
+            </label>
+            <p>
+            <label>
+                Argentino
+            <input type="checkbox" name= "chkargentino" />
+             </label>
+             <p>
+             <label>
+                Localidad:
+                <p>
+             <select name="cbolocalidad">
+                 <option value="San Justo">San Justo</option>
+                 <option value="Videla">Videla</option>
+                 <option value="Marcelino Escalada">Marcelino Escalada</option>
+                 <option value="Llambi Cambell">Llambi Cambell</option>
+             </select>
+            </label>
+             <p>
+             <label>
+                 <input type="radio" name="radiopersona" value="Alumno">Alumno
+            </label></p>
+            <label>
+                 <input type="radio" name="radiopersona" value="Docente">Docente
+            </label></p>
+            <label>
+                 <input type="radio" name="radiopersona" value="Director">Director
+             </label>
+             <p>
+             <label>
+                 Observaciones:
+                 <br>
+                 <textarea rows="4" cols="60" name="txaobservaciones" class="col" id="xd"></textarea>
+             </label>
+        
+            </p>
+            <input type="submit" name="btnenviar"> <!-- value="enviar datos" esto es para cambiar el texto 
+                                                        predeterminado del submit-->
+            
+        </form>
+    </body>
+</html>

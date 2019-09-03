@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/CSS/bootstrap.css" rel="style"> 
+    <link href="/CSS/style.css" rel="stylesheet">
+    <title>Sitio Web</title>
+    <!--Esto es un comentario-->
+    <!--para instertar código css-->
+    <style>
+        h1 {color:white}
+        h2 {color:black}
+    </style>
+    <!--insertar codigo javascript-->
+    <script type="text/javascript">
+        var minombre=prompt("ingrese su nombre"); 
+        alert("El nombre ingresado es:"+minombre);
+    </script>
+</head>
+<body class="col">
+    <!--las etiquetas H1,H2....H6,H7 nos permiten hacer
+    títulos de diferente relevancia-->
+    <h1 class="tl" id="xd">PROYECTO DE INGENIERIA DE SOFTWARE</h1>
+    <h2>Santiago Barreto</h2>
+    <h3>Probando HTML,CSS y Javascript</h3>
+    <h4>texto en H4</h4>
+    <h5>texto en H5</h5>    
+    <!--insterta una linea horizontal(deprecado)-->
+    <hr />          
+    <!--al insertar imágenes el atributo más importante es 
+    src (source) que define la ubicación de la imagen a insertar-->
+    <img src="/imgs/Tulips.jpg"  alt="Tulipanes"  width="480px" height=""/>
+    <!--marquee muestra un texto en movimiento (Deprecada)-->
+    <marquee>esos son tulipanes amarillos</marquee>
+    <!--<table>=para hacer tablas,<tr>=para hacer 
+        filas,<td>=para hacer celdas 
+            (colspan=atributo para combinar columnas), 
+            (rowspan=atributo para combinar filas)
+            <th>=celda de títulos-->
+    <table border="1">
+        <tr>
+            <td colspan="4">Creando sitios web</th>
+        </tr>
+        <tr>
+            <th rowspan="4">Tecnologías</th>
+            <th>HTML5</th>
+            <th>CSS</th>
+            <th>Javascript</th>
+        </tr> 
+        <tr>
+            <td>H1</td>
+            <td>STYLE</td>
+            <td>VAR</td>
+        </tr>
+        <tr>
+            <td>H2</td>
+            <td>BORDER</td>
+            <td>PROMPT</td>
+        </tr>
+        <tr>
+            <td>H3</td>
+            <td>COLOR</td>
+            <td>ALERT</td>
+        </tr>
+    </table>
+    <!--creamos un enlace con la etiqueta A
+    su atributo href nos permite indicar hacia donde nos 
+lleva el enlance-->
+<a href="http://www.google.com">GOOGLE</a>
+<br>
+<a href="formulario2.html">Ingresar al formulario</a>
+</body>
+</html>
